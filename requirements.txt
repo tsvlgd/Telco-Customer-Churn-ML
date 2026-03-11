@@ -1,0 +1,37 @@
+# ===== Core ML =====
+numpy==1.26.4
+pandas==2.1.4
+scikit-learn==1.5.2
+xgboost==3.0.3
+lightgbm==4.6.0
+optuna==4.4.0
+
+# ===== Experiment Tracking =====
+mlflow==2.14.1
+
+# ===== Data Validation =====
+great_expectations==1.5.8
+
+# ===== API & Serving =====
+fastapi>=0.115.0
+uvicorn==0.30.5
+pydantic>=2.8.2
+gradio==5.9.1
+gunicorn==22.0.0
+
+# ===== Visualization =====
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# ===== Data Processing =====
+pyarrow==15.0.2
+statsmodels==0.14.5
+
+# ===== Utilities =====
+python-dotenv==1.0.1
+requests==2.32.4
+PyYAML==6.0.2
+
+# ===== Dev / Testing =====
+pytest==8.3.2
+ipykernel==6.30.1
